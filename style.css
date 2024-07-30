@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #00d084;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parent{
+    width: 50vw;
+    height: 85vh;
+    background-color: #E6E6E6;
+    position: relative;
+    
+}
+
+
+.child1{
+    background-color: #E6E6E6;
+    /* background-color: rgb(34, 245, 45); */
+    width: 30%;
+    height: 90%;
+    margin-top: 4%;
+    position: absolute;
+    left: -8%;
+    border-radius: 10px 10px 0 0;
+    /* box-shadow: 8px 10px 5px 1px rgba(0,0,0,0.26);
+-webkit-box-shadow: 8px 10px 5px 1px rgba(0,0,0,0.26);
+-moz-box-shadow: 8px 10px 5px 1px rgba(0,0,0,0.26); */
+/* -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+   
+}
+
+.child2{
+    background-color: #E6E6E6;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    font-family: sans-serif;
+    
+}
+
+
+.image{
+    height: 85%;
+    width: 135%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(143, 239, 69);
+    
+   
+    
+}
+
+.options{
+    background-color: white;
+    height: 15%;
+    width: 120%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box img{
+    width: 60px;
+    height: 45px;
+    
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+.icons{
+    height: 30px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    
+
+}
+
+.image img{
+    /* width: 290px; */
+    /* height: 300px; */
+    height: 70%;
+    width: 110%;
+    position: absolute;
+    left: -14%;
+}
+
+.box{
+    width: 52px;
+    height: 50px;
+    border: 1px solid grey;
+    margin-top: 6px;
+    border-radius: 5px;
+   
+    
+
+}
+
+
+
+.delicious{
+    /* padding-top: 35px; */
+    padding-top: 10%;
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.code{
+    color: rgb(196, 191, 191);
+    padding-left: 30px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.rs{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 18px;
+   
+    
+    color: red;
+}
+
+.rs span{
+    font-size: 50px;
+   
+    
+}
+
+.select{
+    padding-top: 20px;
+    padding-left: 30px; 
+    color: rgb(196, 191, 191);  
+    font-size: 12px; 
+}
+
+.child2 img{
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    
+    
+}
+
+.img1{
+    margin-left: 30px;
+    border: 2px solid grey;
+}
+
+.benefits{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 12px;  
+    color: rgb(196, 191, 191); 
+}
+
+.list{
+    padding-left: 45px;
+    padding-top: 10px;
+    color:  rgb(101, 100, 100);
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.cart{
+    margin-top: 20px;
+    padding: 10px 30px;
+    margin-left: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(207,194,194,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(207,194,194,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(207,194,194,0.75);
+}
+
+@media only screen and (max-width:1850px){
+    .options{
+        width: 135%;
+    }
+}
+
+@media only screen and (max-width:1700px){
+
+    .child1{
+        width: 40%;
+    }
+
+    .options{
+        width: 145%;
+        
+    }
+
+    .box{
+        margin-top: 30px;
+       
+    }
+
+    
+
+
+}
+
+@media only screen and (max-width:1420px){
+
+    .parent{
+        width: 70vw;
+    }
+
+    .child1{
+        left: -4%;
+    }
+
+}
+
+@media only screen and (max-width:1170px){
+    .options{
+        width: 135%;
+    }
+
+    .image{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .child1{
+        width: 74%;
+        height: 100%;
+        position: static;
+    }
+
+    .child2{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding-top: 10%;
+        
+    }
+
+    .delicious{
+        font-size: 30px;
+    }
+
+    .image img{
+        width: 60%;
+        height: 70%;
+        left: 20%;
+    }
+}
+
