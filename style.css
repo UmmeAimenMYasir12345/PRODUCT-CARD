@@ -33,12 +33,7 @@
     position: absolute;
     left: -8%;
     border-radius: 10px 10px 0 0;
-    /* box-shadow: 8px 10px 5px 1px rgba(0,0,0,0.26);
--webkit-box-shadow: 8px 10px 5px 1px rgba(0,0,0,0.26);
--moz-box-shadow: 8px 10px 5px 1px rgba(0,0,0,0.26); */
-/* -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+    
    
 }
 
@@ -67,7 +62,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
 .options{
     background-color: white;
     height: 15%;
-    width: 120%;
+    width: 135%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: flex;
@@ -84,7 +79,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
 
 .icons{
     height: 30px;
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -196,32 +191,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
     -moz-box-shadow: 10px 10px 5px 0px rgba(207,194,194,0.75);
 }
 
-@media only screen and (max-width:1850px){
-    .options{
-        width: 135%;
-    }
-}
-
-@media only screen and (max-width:1700px){
-
-    .child1{
-        width: 40%;
-    }
-
-    .options{
-        width: 145%;
-        
-    }
-
-    .box{
-        margin-top: 30px;
-       
-    }
-
-    
-
-
-}
+/* Media Queries */
 
 @media only screen and (max-width:1420px){
 
@@ -238,6 +208,21 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
 @media only screen and (max-width:1170px){
     .options{
         width: 135%;
+        
+    }
+
+    .box img{
+        padding-left: 6px;
+        padding-top: 6px;
+        height: 60px;
+        width: 80px;
+    }
+
+
+    .box{
+        margin-top: 35px;
+        height: 65px;
+        width: 75px;
     }
 
     .image{
@@ -256,6 +241,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
         height: 100%;
         text-align: center;
         padding-top: 10%;
+        padding-right: 8%;
         
     }
 
